@@ -49,7 +49,7 @@ int main(int argc, char **argv)
 {
     void *context = zmq_ctx_new();
     void *requester = zmq_socket(context, ZMQ_REQ);
-    char *address = create_address(5555, TCP_LOCALHOST_PATTERN);
+    char *address = create_address(BASE_PORT, TCP_LOCALHOST_PATTERN);
 
     zmq_connect(requester, address);
 
