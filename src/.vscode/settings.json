@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "string": "c",
+        "string_utils.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "memory": "c",
+        "functional": "c",
+        "tuple": "c",
+        "utility": "c",
+        "system_error": "c",
+        "tree.h": "c",
+        "zmq_tools.h": "c",
+        "message.h": "c",
+        "stdlib.h": "c",
+        "zmq.h": "c",
+        "commands.h": "c",
+        "node.h": "c"
+    }
+}
